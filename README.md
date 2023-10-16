@@ -1,7 +1,7 @@
 # swe1-app
 ## Software Engineering - Personal Assignment I
 
-![Build Status](https://app.travis-ci.com/Joshua-Alfred/swe1-app.svg?branch=main)
+[![Build Status](https://app.travis-ci.com/Joshua-Alfred/swe1-app.svg?branch=main)](https://app.travis-ci.com/github/Joshua-Alfred/swe1-app)
 
 [![Coverage Status](https://coveralls.io/repos/github/Joshua-Alfred/swe1-app/badge.svg?branch=main)](https://coveralls.io/github/Joshua-Alfred/swe1-app?branch=main)
 
