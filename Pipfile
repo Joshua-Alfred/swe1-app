@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gunicorn = "*"
+flake8 = "*"
+coverage = "*"
+coveralls = "*"
+django = "==3.2.22"
+black = "==23.3.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

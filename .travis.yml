@@ -1,0 +1,28 @@
+language: python
+python:
+  - "3.8"  
+
+cache: pip
+
+install:
+  - pip install -r requirements.txt  
+  # - pip install python==3.8
+script:
+  - black --check .  
+  - flake8  
+  - coverage run manage.py test  
+
+after_success:
+  - coveralls  
+
+# deploy:
+#   provider: elasticbeanstalk
+#   access_key_id: AWS_ACCESS_KEY_ID
+#   secret_access_key:
+#     secure: g4DmnQ2TAPfaxsMsvzjaggywfgdYrws0rhiPHtzW
+#   region: "us-west-2"  
+#   app: "swe1-app"  
+#   env: "swe1-app-env"  
+#   bucket_name: "elasticbeanstalk-us-west-2-284687301079"  
+#   on:
+#     all_branches: true 
