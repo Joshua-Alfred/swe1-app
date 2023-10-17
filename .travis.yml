@@ -12,7 +12,7 @@ before_script:
   - python manage.py migrate
 
 after_script:
-  - coveralls  
+  - coveralls --path-to-coveralls-yml=.coveralls.yml
 
 script:
   - black --check .  
