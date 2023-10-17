@@ -20,14 +20,13 @@ script:
   - coverage run --source=mysite,polls manage.py test
 
 
-# deploy:
-#   provider: elasticbeanstalk
-#   access_key_id: AWS_ACCESS_KEY_ID
-#   secret_access_key:
-#     secure: g4DmnQ2TAPfaxsMsvzjaggywfgdYrws0rhiPHtzW
-#   region: "us-west-2"  
-#   app: "swe1-app"  
-#   env: "swe1-app-env"  
-#   bucket_name: "elasticbeanstalk-us-west-2-284687301079"  
-#   on:
-#     all_branches: true 
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: "Encrypted <access-key-id>="
+  secret_access_key:
+    secure: "Encypted <secret-access-key>="
+  region: "us-east-2"
+  app: "example-app-name"
+  env: "example-app-environment"
+  bucket_name: "the-target-S3-bucket"
