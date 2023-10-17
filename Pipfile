@@ -11,6 +11,7 @@ coveralls = "==1.11.1"
 django = "==3.2.22"
 black = "==23.3.0"
 urllib3 = "==1.26.6"
+pyyaml = "*"
 
 [dev-packages]
 
