@@ -1,0 +1,11 @@
+
+repo_token: COVERALLS_REPO_TOKEN
+
+service_name: travis-ci
+
+parallel: true
+
+flag_name: unit_test
+
+
+
