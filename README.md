@@ -1,5 +1,5 @@
 # swe1-app
-## Software Engineering - Personal Assignment I
+## Software Engineering - Personal Assignment I & II
 
 [![Build Status](https://app.travis-ci.com/Joshua-Alfred/swe1-app.svg?branch=main)](https://app.travis-ci.com/github/Joshua-Alfred/swe1-app)
 
