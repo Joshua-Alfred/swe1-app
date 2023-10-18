@@ -11,4 +11,4 @@ Travis Dashboard: https://app.travis-ci.com/github/Joshua-Alfred/swe1-app
 
 Coveralls Dashboard: https://coveralls.io/github/Joshua-Alfred/swe1-app
 
-*by Joshua Alfred Jayapal - jj3811*
+*by Joshua Alfred Jayapal - jj3811* 
