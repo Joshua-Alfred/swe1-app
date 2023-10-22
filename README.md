@@ -1,7 +1,9 @@
 # swe1-app
 ## Software Engineering - Personal Assignment I & II
 
-[![Build Status](https://app.travis-ci.com/Joshua-Alfred/swe1-app.svg?branch=main)](https://app.travis-ci.com/github/Joshua-Alfred/swe1-app)
+[![Build Status](https://app.travis-ci.com/gcivil-nyu-org/Wednesday-Fall2023-Team-1.svg?branch=joshua-master)](https://app.travis-ci.com/github/gcivil-nyu-org/Wednesday-Fall2023-Team-1)
+
+
 
 [![Coverage Status](https://coveralls.io/repos/github/Joshua-Alfred/swe1-app/badge.svg?branch=main)](https://coveralls.io/github/Joshua-Alfred/swe1-app?branch=main)
 
